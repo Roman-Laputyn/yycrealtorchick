@@ -1,0 +1,429 @@
+.elementor-form-fields-wrapper {
+	justify-content: center;
+}
+#my-featured .mrp-results-page-summary {
+	display:none;
+}
+#my-featured #listing-results-view.mrp-style-area .top-divider {
+	border:none;
+}
+#my-featured #listing-results-view.mrp-style-area, #listing-details-view.mrp-style-area {
+	font-family: 'Jost';
+	text-align: center;
+}
+#my-featured #listing-results-view.mrp-style-area.sm560 .mrp-listing-result .listing-item-entry-title{
+	height: 3.5rem;
+}
+#my-featured #listing-results-view.mrp-style-area.sm560 .mrp-description-and-attribution-wrapper {
+	display: none;
+}
+/* #my-featured #listing-results-view.mrp-style-area .mrp-listing-summary-outer {
+	display: none;
+} */
+#my-featured #listing-results-view.mrp-style-area .mrp-owner-contact-container {
+	display: none;
+}
+@media (max-width: 580px){
+	#my-featured #listing-results-view.mrp-style-area .mrp-listing-description {
+	display: none;
+}
+	#my-featured #listing-results-view.mrp-style-area .mrp-listing-attribution-container {
+		display: none;
+	}
+	#my-featured .listing-results-view .mrp-listing-result {
+		border: none;
+	}
+	#my-featured #listing-results-view.mrp-style-area .listing-item-entry-title {
+	height: 4rem;
+		overflow:inherit;
+		display: inline-block;
+		margin-top: 40px;
+}
+.elementor-43655 .elementor-element.elementor-element-ceba7b5 {
+	display:none;
+	}
+}
+ #listing-results-view.mrp-style-area .mrp-listing-details-link a {
+	background-color: rgba(0, 0, 0, 0);
+	color: #000;
+	border: 1px solid #000;
+	box-shadow:none;
+	transition: all 0.3s ease;
+}
+ #listing-results-view.mrp-style-area .mrp-listing-details-link a:hover{
+	background-color: #000;
+	color:#fff;
+}
+ #listing-results-view.mrp-style-area .mrp-listing-links-section .menu-handle {
+	background-color: rgba(0, 0, 0, 0);
+	color: #000;
+	border: 1px solid #000;
+	box-shadow:none;
+	transition: all 0.3s ease;
+	padding: 9.5px 32.5px;
+}
+
+ #listing-results-view.mrp-style-area .mrp-listing-links-section .menu-handle:hover{
+	background-color: #000;
+	color:#fff;
+}
+#my-featured #listing-results-view.mrp-style-area.sm560 .listing-results-navigation-bottom {
+	display: none;
+}
+#my-featured #listing-results-view.mrp-style-area .mrp-listing-last-modified {
+	display: none;
+}
+#my-featured .mrp-listing-results-footer {
+	display:none;
+}
+#my-featured #listing-results-view.mrp-style-area .powered-by {
+	display:none;
+}
+@media (max-width: 580px) {
+	#my-featured #listing-results-view.mrp-style-area .mrp-listing-page-navigation .page-buttons {
+		display:none;
+	}
+}
+#my-featured .listing-results-view.mrp-style-area .mrp-vow-toolbar-non-auth, .listing-details-view.mrp-style-area .mrp-vow-toolbar-non-auth, .vow-landing.mrp-style-area .mrp-vow-toolbar-non-auth {
+	display: none;
+}
+canvas.mapboxgl-canvas {
+	position: relative !important;
+}
+
+#home-header-form-search form.mrp-omnibox-v2 .field-container {
+	flex-wrap: nowrap;
+	align-items: center;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-button {
+	position: inherit;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 0px;
+	flex: 0 0 15%;
+	transition: all 0.3s ease;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-button::before {
+	content: "Search";
+	background-image: none;
+	width:100%;
+	font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+	transition: all 0.3s ease;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-button:hover {
+	background-color: #fff;
+	border: none;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-button:hover:before{
+	color:#000;
+}
+
+#home-header-form-search form.mrp-omnibox-v2 .location-search-area {
+	padding: 0px;
+	border-radius: 0px;
+	background-color: transparent;
+	flex: 0 0 45%;
+}
+#home-header-form-search form.mrp-omnibox-v2.sm620 .location-search-controls {
+	flex: 0 0 40%;
+}
+#home-header-form-search .selectize-input {
+	border-radius: 0px;
+	color: #fff;
+	
+}
+#home-header-form-search form.mrp-omnibox-v2 .selectize-input {
+	background-color: #a89d74;
+	border: none;
+	
+}
+#home-header-form-search form.mrp-omnibox-v2 .field-item span {
+	background-color: #a89d74;
+	border: none;
+	border-radius: 0px;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-min-price span::before, form.mrp-omnibox-v2 .location-search-max-price span::before {
+	color: #fff;
+	text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+
+#home-header-form-search form.mrp-omnibox-v2 *::-webkit-input-placeholder { /* WebKit browsers */
+   	color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+	
+}
+
+#home-header-form-search form.mrp-omnibox-v2 *:focus::placeholder {
+  color: transparent;
+}
+
+#home-header-form-search form.mrp-omnibox-v2 *:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+#home-header-form-search form.mrp-omnibox-v2 *::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+#home-header-form-search form.mrp-omnibox-v2 *:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+#home-header-form-search form.mrp-omnibox-v2 .selectize-input input{
+	flex: 0 0 100%
+		
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-area .selectize-input * {
+	color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-price input {
+	color:    #fff;
+		font-family: "Jost";
+		text-transform: uppercase;
+		font-size: 15px;
+    font-weight: 300;
+		letter-spacing: 2.5px;
+}
+#home-header-form-search .selectize-control {
+	display: flex;
+}
+#home-header-form-search .selectize-dropdown [data-selectable] .highlight {
+	background: rgba(125, 168, 208, 0.2);
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-min-price::after {
+	display:none;
+	visibility: hidden;
+	position: absolute;
+}
+#home-header-form-search form.mrp-omnibox-v2 .location-search-price {
+	gap: 0rem;
+}
+#home-header-form-search form.mrp-omnibox-v2 .field-container {
+	gap: 0.7rem;
+}
+
+@media (max-width: 841px) {
+	#home-header-form-search form.mrp-omnibox-v2 .field-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#home-header-form-search form.mrp-omnibox-v2.xs .location-search-controls {
+		height:auto;
+		opacity: 1;
+	}
+	#home-header-form-search form.mrp-omnibox-v2 .location-search-area {
+		flex: 0 0 100%;
+	}
+	#home-header-form-search form.mrp-omnibox-v2 .field-item {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#home-header-form-search form.mrp-omnibox-v2 .location-search-button {
+		flex: 0 0 100%;
+	}
+	#home-header-form-search form.mrp-omnibox-v2.sm620 .location-search-controls {
+		flex: 0 0 100%;
+	}
+	#home-header-form-search form.mrp-omnibox-v2 *::-webkit-input-placeholder { /* WebKit browsers */
+   	text-align: center;
+	text-overflow: ellipsis;
+		overflow: hidden;
+}
+}
+
+#my-featured .listing-results-view.mrp-style-area .mrp-vow-toolbar-auth, .listing-details-view.mrp-style-area .mrp-vow-toolbar-auth, .vow-landing.mrp-style-area .mrp-vow-toolbar-auth {
+	display: none;
+}
+#listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper{
+	z-index:1;
+}
+#listing-results-view.mrp-style-area .listing-item-top-menu {
+	z-index:1;
+}
+#listing-results-view.mrp-style-area .mrp-listing-details-link {
+	z-index:1;
+}
+#listing-results-view.mrp-style-area .mrp-listing-links-section {
+	z-index:1;
+}
+#listing-results-view.mrp-style-area .mrp-listing-description {
+	z-index:1;
+}
+
+#listing-results-view.mrp-style-area .NEW-BANNER .mrp-listing-main-image-container .results-ribbon{
+	background-color: #a89d74;
+	color:#000;
+	opacity: 1;
+}
+#listing-results-view.mrp-style-area .summary-property-type{
+	background-color: #a89d74;
+	font-size:14px;
+	color:#000;
+	font-weight:600;
+	opacity: 1;
+}
+#listing-results-view.mrp-style-area .mrp-listing-price-container{
+	background-color: #a89d74; 
+	color: #000;
+	font-weight: 600; 
+	opacity: 1;
+}
+.mrp-style-area .nav-inline-close, .mrp-idx-panel .nav-inline-close {
+	display: none;
+}
+#listing-details-view.mrp-style-area .mrp-listing-links-section > ul li {
+	background-color: #a89d74;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats .mrp-area-stats-save-search{
+	background-color: #a89d74;
+}
+.mrp-style-area a{
+	color: #16486e;
+}
+#listing-details-view.mrp-style-area .mrp-i-unit, #listing-details-view.mrp-style-area .mrp-m-unit{
+	color: #16486e; 
+	border-bottom: 2px solid #16486e; 
+
+}
+#listing-details-view.mrp-style-area .mrp-area-stats {
+	border: 1px solid #a89d74;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats .mrp-area-stats-heading {
+	color: #16486e;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats dd {
+	color: #16486e;
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-info-wrapper{
+	margin-top: 20px;
+    margin-left: 20px;
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-photo-wrapper{
+	width: 120px;
+    height: 120px;
+	margin-right: 0px;
+	margin-top: 10px
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info:first-child {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-info-wrapper{
+	margin-left: 0px;
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-info-wrapper .contact-name {
+	font-size: 16px;
+	margin-bottom: 7px
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-info-wrapper .contact-email a {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:10px 20px 10px 20px;
+	display: inline-block;
+	background-color: #a89d74;
+	color: #fff;
+	border-radius: 5px;
+}
+#listing-details-view.mrp-style-area .mrp-owner-contact-container .listing-contact-info .listing-contact-info-wrapper .contact-email a:hover {
+	background-color: #000;
+	text-decoration:none;
+}
+#listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper .mrp-vow-toolbar-non-auth, #listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper .mrp-vow-toolbar-auth {
+	display:block;
+}
+#listing-details-view.mrp-style-area .mrp-listing-links-section > ul li {
+	background-color: #a89d74!important;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats .mrp-area-stats-save-search {
+	background-color: #a89d74!important;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats {
+	border: 1px solid #a89d74!important;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats .mrp-area-stats-heading {
+	color: #16486e!important;
+}
+#listing-details-view.mrp-style-area .mrp-area-stats dd {
+	color: #16486e!important;
+}
+#listing-details-view.mrp-style-area .mrp-i-unit, #listing-details-view.mrp-style-area .mrp-m-unit {
+	color: #16486e!important;
+}
+#listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper .mrp-vow-toolbar-non-auth, #listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper .mrp-vow-toolbar-auth {
+	display: flex;
+	justify-content: space-between;
+}
+#listing-details-view.mrp-style-area.md .mrp-vow-login-with-external-id {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.listing-results-view.mrp-style-area .mrp-vow-toolbar-non-auth, .listing-details-view.mrp-style-area .mrp-vow-toolbar-non-auth, .vow-landing.mrp-style-area .mrp-vow-toolbar-non-auth {
+	justify-content: space-between;
+}
+
+.listing-results-view.mrp-style-area .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id, .listing-details-view.mrp-style-area .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id, .vow-landing.mrp-style-area .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.listing-results-view.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id > label, .listing-details-view.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id > label, .vow-landing.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login-with-external-id > label {
+	padding-bottom: 0px;
+}
+.listing-results-view.mrp-style-area .mrp-vow-toolbar-non-auth .btn, .listing-details-view.mrp-style-area .mrp-vow-toolbar-non-auth .btn, .vow-landing.mrp-style-area .mrp-vow-toolbar-non-auth .btn {
+	font-size: 14px!important;
+    padding: 7px 15px!important;
+	text-transform: uppercase;
+    letter-spacing: 0.15rem!important;
+    font-family: "Jost"!important;
+	box-shadow: none!important;
+    border: 1px solid #A89D74!important;
+    background: #A89D74!important;
+	font-weight: 400!important;
+	color: #fff!important;
+}
+.listing-results-view.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login.btn::before, .listing-details-view.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login.btn::before, .vow-landing.mrp-style-area.sm .mrp-vow-toolbar-non-auth .mrp-vow-login.btn::before {
+	font-size: 14px!important;
+}
+#listing-details-view.mrp-style-area.xs .mrp-details-vow-toolbar-wrapper {
+	margin-bottom: 30px;
+}
+
+.listing-results-view.mrp-style-area .mrp-vow-toolbar-non-auth, .listing-details-view.mrp-style-area .mrp-vow-toolbar-non-auth, .vow-landing.mrp-style-area .mrp-vow-toolbar-non-auth {
+	margin-bottom: 30px!important;
+	margin-top: 20px;
+}
+
+
+
+
+
+
